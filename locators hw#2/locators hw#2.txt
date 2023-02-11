@@ -1,0 +1,23 @@
+
+
+
+amazon logo
+driver.find_element(By.Xpath, "//a[@href='/ref=ap_frn_logo']")
+
+continue button
+driver.find_element(By.ID, 'continue')
+
+need help link
+driver.find_element(By.Xpath, "//span[@class='a-expander-prompt']")
+
+forgot your password 
+driver.find_element(By.ID, 'auth-fpp-link-bottom')
+
+
+other issues with Sign-In link
+driver.find_element(By.ID, 'ap-other-signin-issues-link')
+
+Create your Amazon account button
+driver.find_element(By.ID, 'createAccountSubmit')
+
+couldn't figure out conditions of use and privacy
