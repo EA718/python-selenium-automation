@@ -20,4 +20,4 @@ def verify_amazon_cart_is_empty_result(context):
 @then('Verify that text {expected_result} is shown')
 def verify_expected_result(context, expected_result):
     actual_result = context.driver.find_element(By.XPATH, "//div[@class='a-row sc-your-amazon-cart-is-empty']/h2").text
-    assert expected_result == actual_result, f'Expected {expected_result} but got actual {actual_result}'
+    assert expected_result == actual_result, f'Expected {expected_result} but got actual {actual_result}
