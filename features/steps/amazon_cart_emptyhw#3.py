@@ -1,11 +1,9 @@
 from selenium.webdriver.common.by import By
 from behave import given, when, then
 
-
 cart_icon = (By.ID, 'nav-cart-count-container')
 amazon_cart_is_empty = (By.XPATH, "//div[@class='a-row sc-your-amazon-cart-is-empty']/h2")
 expected_result = "Your Amazon Cart is empty"
-
 
 @given('Open Amazon page')
 def open_amazon(context):
